@@ -30,7 +30,8 @@ export default function Hero() {
             View Projects
           </button>
           <a
-            href="#"
+            href="/Bipin_Gurung_CV.pdf"
+            download
             className="px-8 py-3 border border-accent text-accent font-semibold rounded-lg hover:bg-accent/10 transition-all duration-200"
           >
             Download CV

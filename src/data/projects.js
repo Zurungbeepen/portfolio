@@ -1,0 +1,37 @@
+export const projects = [
+  {
+    id: 1,
+    name: 'Printronic',
+    description: 'A frontend website for selling printers. Built as a group project with a clean product listing and shopping interface.',
+    stack: ['HTML', 'CSS', 'JavaScript'],
+    github: '#',
+  },
+  {
+    id: 2,
+    name: 'Land Rental System',
+    description: 'A command-line system to manage and rent land plots, handling tenant records and rental agreements.',
+    stack: ['Python'],
+    github: '#',
+  },
+  {
+    id: 3,
+    name: 'Charpangre',
+    description: 'A vehicle selling website with dynamic backend logic for listing and managing vehicle inventory.',
+    stack: ['Java', 'Servlets', 'HTML', 'CSS'],
+    github: '#',
+  },
+  {
+    id: 4,
+    name: 'Journal Site',
+    description: 'A cross-platform journal application built in 3rd year using .NET MAUI and Blazor with Razor syntax.',
+    stack: ['C#', '.NET MAUI', 'Blazor', 'Razor'],
+    github: '#',
+  },
+  {
+    id: 5,
+    name: 'Apartment Management System',
+    description: 'Final Year Project — a full stack apartment management platform with tenant management, payments, and admin dashboard.',
+    stack: ['MongoDB', 'Express', 'React', 'Node.js'],
+    github: '#',
+  },
+]

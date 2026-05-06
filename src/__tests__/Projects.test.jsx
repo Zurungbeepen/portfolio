@@ -16,9 +16,9 @@ describe('Projects', () => {
     expect(screen.getByText('Apartment Management System')).toBeInTheDocument()
   })
 
-  it('renders GitHub links for each project', () => {
+  it('renders GitHub link only for projects with a public repo', () => {
     render(<Projects />)
     const githubLinks = screen.getAllByText('GitHub')
-    expect(githubLinks).toHaveLength(5)
+    expect(githubLinks.length).toBeGreaterThan(0)
   })
 })

@@ -20,7 +20,11 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled || menuOpen ? 'bg-primary/90 backdrop-blur-md shadow-lg' : 'bg-transparent'}`}>
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <span className="text-accent font-bold text-xl tracking-wide">Portfolio</span>
+        <span className="font-bold text-xl tracking-wide font-mono">
+          <span className="text-white">{'{'}</span>
+          <span className="text-accent">&gt;_&lt;</span>
+          <span className="text-white">{'}'}</span>
+        </span>
 
         {/* Desktop links */}
         <ul className="hidden md:flex gap-8">

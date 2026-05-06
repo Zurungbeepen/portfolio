@@ -2,9 +2,9 @@ import { render, screen } from '@testing-library/react'
 import Navbar from '../components/Navbar'
 
 describe('Navbar', () => {
-  it('renders the brand name', () => {
+  it('renders the brand logo', () => {
     render(<Navbar />)
-    expect(screen.getByText('Portfolio')).toBeInTheDocument()
+    expect(screen.getByText('>_<')).toBeInTheDocument()
   })
 
   it('renders all nav links', () => {

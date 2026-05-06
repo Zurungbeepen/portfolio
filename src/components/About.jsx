@@ -1,3 +1,5 @@
+import profilePhoto from '../assets/Profile.JPG'
+
 export default function About() {
   return (
     <section id="about" className="py-24 px-6">
@@ -7,8 +9,8 @@ export default function About() {
 
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-shrink-0">
-            <div className="w-56 h-56 rounded-2xl bg-surface border-2 border-accent/30 overflow-hidden flex items-center justify-center">
-              <span className="text-muted text-sm">Photo coming soon</span>
+            <div className="w-56 h-56 rounded-2xl border-2 border-accent/30 overflow-hidden">
+              <img src={profilePhoto} alt="Bipin Gurung" className="w-full h-full object-cover object-top" />
             </div>
           </div>
 

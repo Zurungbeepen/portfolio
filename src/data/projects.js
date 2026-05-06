@@ -29,6 +29,14 @@ export const projects = [
   },
   {
     id: 5,
+    name: 'Great Ticket Admin Panel',
+    description: 'Designed the backend admin panel for Great Ticket, a live ticketing platform. Built the organization panel UI during internship at Websoft Technology Nepal.',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    github: '#',
+    live: 'https://www.greatticket.my/',
+  },
+  {
+    id: 6,
     name: 'Apartment Management System',
     description: 'Final Year Project — a full stack apartment management platform with tenant management, payments, and admin dashboard.',
     stack: ['MongoDB', 'Express', 'React', 'Node.js'],

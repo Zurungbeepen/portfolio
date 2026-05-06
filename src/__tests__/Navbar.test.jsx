@@ -9,9 +9,9 @@ describe('Navbar', () => {
 
   it('renders all nav links', () => {
     render(<Navbar />)
-    expect(screen.getByText('About')).toBeInTheDocument()
-    expect(screen.getByText('Skills')).toBeInTheDocument()
-    expect(screen.getByText('Projects')).toBeInTheDocument()
-    expect(screen.getByText('Contact')).toBeInTheDocument()
+    expect(screen.getAllByText('About').length).toBeGreaterThan(0)
+    expect(screen.getAllByText('Skills').length).toBeGreaterThan(0)
+    expect(screen.getAllByText('Projects').length).toBeGreaterThan(0)
+    expect(screen.getAllByText('Contact').length).toBeGreaterThan(0)
   })
 })

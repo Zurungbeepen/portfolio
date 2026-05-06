@@ -1,7 +1,8 @@
 const experiences = [
   {
     role: 'Frontend Developer Intern',
-    company: 'Websoft',
+    company: 'Websoft Technology Nepal',
+    website: 'https://www.websoftnepal.com.np/',
     duration: '3 Months',
     description:
       'Worked on frontend development tasks, building and styling web pages using HTML, CSS, JavaScript, and Bootstrap. Gained hands-on experience in responsive design and real-world web development workflows.',
@@ -27,7 +28,14 @@ export default function Experience() {
               <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 mb-3">
                 <div>
                   <h3 className="text-white font-semibold text-lg">{exp.role}</h3>
-                  <p className="text-accent text-sm font-medium">{exp.company}</p>
+                  <a
+                    href={exp.website}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-accent text-sm font-medium hover:underline"
+                  >
+                    {exp.company} ↗
+                  </a>
                 </div>
                 <span className="text-muted text-sm border border-white/10 px-3 py-1 rounded-full w-fit">
                   {exp.duration}

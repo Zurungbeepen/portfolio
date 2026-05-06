@@ -25,7 +25,7 @@ export const projects = [
     name: 'Journal Site',
     description: 'A cross-platform journal application built in 3rd year using .NET MAUI and Blazor with Razor syntax.',
     stack: ['C#', '.NET MAUI', 'Blazor', 'Razor'],
-    github: '#',
+    github: 'https://github.com/Zurungbeepen/CourseworkMaui',
   },
   {
     id: 5,

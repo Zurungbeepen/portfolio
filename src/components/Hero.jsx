@@ -13,7 +13,7 @@ export default function Hero() {
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <p className="text-accent text-sm font-medium tracking-widest uppercase mb-4">Welcome to my portfolio</p>
         <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
-          Hi, I'm <span className="text-accent">Your Name</span>
+          Hi, I'm <span className="text-accent">Bipin Gurung</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 font-medium mb-3">
           BIT Student | Full Stack Developer
